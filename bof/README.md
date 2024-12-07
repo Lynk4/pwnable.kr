@@ -24,6 +24,22 @@ int main(int argc, char* argv[]){
 }
 
 ```
+Object dump
+
+---
+<img width="1440" alt="Screenshot 2024-12-08 at 2 39 49 AM" src="https://github.com/user-attachments/assets/692ad475-7e44-4766-abf8-c167114e3e1b">
+
+
+---
+| FFF      | 	        
+| -------- | 	     
+|          | 
+| KEY(overflow) | 
+| eip = 4 bytes     | 
+| ebp = 4 bytes     | 
+|   0x2c = 44 bytes   | 
+|0x00      |        
+
 ---
 exp.py
 
@@ -44,7 +60,7 @@ p.sendline(payload)
 p.interactive()
 ```
 
-
+Running the exploit..........
 ---
 ```bash
 ❯ python3 exp.py
