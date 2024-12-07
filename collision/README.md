@@ -1,10 +1,5 @@
 # collision
-
-ssh col@pwnable.kr -p2222
-
-download col.c
-
-scp -P 2222 col@pwnable.kr:col.c .
+---
 
 ```
 ssh col@pwnable.kr -p2222
