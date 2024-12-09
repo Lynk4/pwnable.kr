@@ -111,3 +111,12 @@ flag-core: ELF 64-bit LSB core file, x86-64, version 1 (SYSV), SVR4-style, from
 effective gid: 0, execfn: '/home/lynk/pwnable/flag/flag', platform: 'x86_64'
 ```
 ---
+
+just use strings on flag-core you will get the flag.........
+
+---
+
+<img width="1440" alt="Screenshot 2024-12-09 at 11 54 24 PM" src="https://github.com/user-attachments/assets/b230e689-d21f-49b6-a7c7-b2b00279ba62">
+
+---
+
