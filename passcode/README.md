@@ -6,7 +6,7 @@
 
 ---
 
-##### what to write>>: 0x080485e3: 134514147
+#### what to write>>: 0x080485e3: 134514147
 
 #### where to write >> 0804a004  00000207 R_386_JUMP_SLOT   00000000   
 fflush@GLIBC_2.0
